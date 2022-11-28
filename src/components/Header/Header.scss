@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@300&family=Kdam+Thmor+Pro&family=Press+Start+2P&display=swap');
-
-.projects {
+.header {
     display : flex;
     flex-direction: column;
-    padding: 2%;
-    margin-left: 10%;
 
     &__title {
         color: #F8D90F;
