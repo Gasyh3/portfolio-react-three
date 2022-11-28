@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@300&family=Kdam+Thmor+Pro&family=Press+Start+2P&display=swap');
+
+.projects {
+    display : flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-left: 10%;
+
+    &__title {
+        color: #F8D90F;
+        font-family: 'Kdam Thmor Pro', sans-serif; 
+        font-size: 30px;
+    }
+
+    &__block {
+        padding : 2%;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .projects {
+        margin: 0;
+
+        &__title {
+            margin: 2%;
+        }
+    }
+}
